@@ -1,10 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    
 }
 h1{
     font-size: 50px;
 }
-.influencer-gear{
+.influencer{
     display: flex;
 }
 .half-width{
@@ -13,6 +14,10 @@ h1{
 }
 .half-width img{
     width: 70%;
+}
+.influencer .half-width img:hover{
+    transform: scale(1.5);
+    transition: transform 2s;
 }
 .link-button{
     text-decoration: none;
@@ -23,5 +28,40 @@ h1{
 }
 hr{
     border: 1px solid #D1D1D1;
-    margin-bottom: 27px;
+    margin-bottom: 70px;
+}
+
+    /* collection style */
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.section-title{
+    display: grid;
+    justify-content: center;
+}
+.influencer-gear{
+    display: inline;
+    border: 2px solid, black;
+    margin: 10px;
+    padding-left: 10px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}.fa-star.empty{
+    color: #AEAEAE;
+}
+.button{
+    display: inline;
+    color: red;
+    float: right;
+    text-decoration: none;
+    width: 300px;
+    margin: 40px;
+
 }
