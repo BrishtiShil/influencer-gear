@@ -37,16 +37,19 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    border-radius: 15px;
+    width: 300px;
+    
 }
 .section-title{
     display: grid;
     justify-content: center;
 }
 .influencer-gear{
-    display: inline;
-    border: 2px solid, black;
-    margin: 10px;
-    padding-left: 10px;
+    background-color: gainsboro;
+    border: 5px solid grey;
+    padding: 50px;
+    margin-bottom: 30px;
 }
 .fa-star{
     font-size: 12px;
@@ -61,7 +64,15 @@ hr{
     color: red;
     float: right;
     text-decoration: none;
-    width: 300px;
+    width: 400px;
     margin: 40px;
 
+}
+
+/* footer style */
+
+footer{
+    color: white;
+    text-align: center;
+    background-color: grey;
 }
