@@ -65,7 +65,7 @@ hr{
     float: right;
     text-decoration: none;
     width: 400px;
-    margin: 40px;
+    margin-top: 3px;
 
 }
 
@@ -76,3 +76,4 @@ footer{
     text-align: center;
     background-color: grey;
 }
+
